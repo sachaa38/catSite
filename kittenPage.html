@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Males - Wind in willows</title>
-    <meta property="og:title" content="Males - Wind in willows" />
+    <title>Kitten - Wind in willows</title>
+    <meta property="og:title" content="Kitten - Wind in willows" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -39,78 +39,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
+   
     <style>
       @keyframes fade-in-left {
         0% {
@@ -129,6 +61,7 @@
     <div>
       <link href="./females.css" rel="stylesheet" />
       <link href="./index.css" rel="stylesheet" />
+      <link href="./pageCat.css" rel="stylesheet" />
       <link href="./contact.css" rel="stylesheet" />
       <link href="./contact1.css" rel="stylesheet" />
 
@@ -212,58 +145,70 @@
         </div>
         <div class="females-hero">
           <div class="females-hero1 heroContainer">
-            <div class="females-gallery">
-              <h1 class="females-text">Our males</h1>
-
+            <div class="catPageContainer">
+              
               <script>
-                fetch('males.json')
+     
+                const urlParams = new URLSearchParams(window.location.search);
+                const catName = urlParams.get('name');
+        
+               
+                fetch('kittens.json')
                     .then(response => response.json())
                     .then(data => {
-                        const gallery = document.querySelector('.females-container1');
-                        data.forEach(item => {
+                        const gallery = document.querySelector('.catPageContainer');
+                        const cat = data.find(item => item.name === catName);
+                        if (cat) {
                             const galleryItem = document.createElement('div');
-                            galleryItem.classList.add('gallery-card3-gallery-card', 'gallery-card3-root-class-name');
+                                    galleryItem.classList.add('catPageContainer1');
+        
+                                    const galleryContainer = document.createElement('div')
+                                    galleryContainer.classList.add('catPageContent')
 
-                            const link = document.createElement('a');
-                            link.href = `malePage.html?name=${encodeURIComponent(item.name)}`;
-                            
-                            const img = document.createElement('img');
-                            img.src = item.image;
-                            img.alt = item.title;
-                            img.classList.add('gallery-card3-image')
+                                    const returnBtn = document.createElement('a')
+                                    returnBtn.textContent = "Return"
+                                    returnBtn.href = "./kittens.html"
+                                    returnBtn.classList.add("return-button")
+        
+                                    const title = document.createElement('h1')
+                                    title.classList.add("females-text")
+                                    title.textContent = cat.name
+        
+                                    const para = document.createElement('p')
+                                    para.classList.add('catPageText')
+                                    para.textContent = cat.txt
 
-                            const galleryContainer = document.createElement('div')
-                            galleryContainer.classList.add('gallery-card3-container')
-
-                            const title = document.createElement('h1')
-                            title.classList.add("gallery-card3-text")
-                            
-                            const name = document.createElement('span');
-                            name.textContent = item.name;
-
-                            const para = document.createElement('span')
-                            para.classList.add('gallery-card3-text1')
-
-                            const desc = document.createElement('span')
-                            desc.textContent = item.desc
-                            
-                           
-                            title.appendChild(name)
-                            para.appendChild(desc)
-                            galleryContainer.appendChild(title)
-                            galleryContainer.appendChild(para)
-                            
-                            galleryItem.appendChild(img);
-                            galleryItem.appendChild(galleryContainer);
-                            gallery.appendChild(galleryItem);
-
-                            link.appendChild(galleryItem)
-                            gallery.appendChild(link);
-
-                        });
+                                    const titleDiv = document.createElement("div")
+                                    titleDiv.classList.add("divTitle")
+                                    
+                                    titleDiv.appendChild(returnBtn)
+                                    titleDiv.appendChild(title)
+                                    
+                                    galleryContainer.appendChild(titleDiv)
+                                    galleryContainer.appendChild(para)
+                                    
+                                   
+                                    galleryItem.appendChild(galleryContainer);
+                                    gallery.appendChild(galleryItem);
+        
+                                    const containerPictures = document.createElement('div')
+                                    containerPictures.classList.add('females-container1')
+        
+                                    cat.images.forEach(imageUrl => {
+                                    const img = document.createElement('img');
+                                    img.src = imageUrl;
+                                    img.alt = cat.name;
+                                    img.classList.add('catPageImg');
+                                    containerPictures.appendChild(img)
+                                    galleryItem.appendChild(containerPictures);
+                                });
+        
+                        } else {
+                            document.body.innerHTML = "<p>Cat not found.</p>";
+                        }
                     })
-                    .catch(error => console.error('Erreur lors du chargement des images :', error));
-              </script>
+                    .catch(error => console.error('Erreur lors du chargement des données du chaton :', error));
+            </script>
               <div class="females-container1">
               </div>
             </div>

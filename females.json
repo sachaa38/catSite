@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Smoky",
+      "desc": "Back smoke",
+      "image": "public/cats/1588bd2a-e744-4348-8d30-32005660e0a6-1500w.jpeg"
+    },
+    {
+      "name": "Sophy",
+      "desc": "Black silver classic tabby with white polydactyl",
+      "image": "public/cats/e07cff6a-0ea2-4ae7-9b4e-9dbdfd86975c.jpeg"
+    },
+    {
+      "name": "Cassandra",
+      "desc": "Black silver classic tabby with white",
+      "image": "public/cats/9de42972-2b42-4b03-8667-0c6d6802c0e1-1500h.jpeg"
+    },
+    {
+      "name": "Julia",
+      "desc": "White with blue eyes",
+      "image": "public/cats/105189480_2892965560800709_7748770577302420317_n-1500w.jpg"
+    },
+    {
+      "name": "Daphna",
+      "desc": "Black classic tabby with white and blue eyes",
+      "image": "public/cats/391466483_6485413024889260_5605428295231652367_n-1500w.jpg"
+    },
+    {
+      "name": "Yana",
+      "desc": "Black classic tabby",
+      "text": "erhtrjtyjty",
+      "image": "public/cats/1083ffae-0353-4da2-b031-fe3d763d8c0f-1500w.jpeg",
+      "images": "public/cats/"
+    },
+    {
+      "name": "Wolter",
+      "desc": "Black silver ticked tabby",
+      "txt": "This cat is a graceful and elegant creature with soft, silky fur that shines in the light. Its eyes are large and expressive, reflecting curiosity and intelligence. With a playful yet calm demeanor, it enjoys exploring its surroundings and lounging in cozy spots. This feline is friendly and affectionate, often seeking gentle strokes and cuddles. Its purring is soothing, a sign of comfort and contentment. Whether chasing a toy or simply observing the world, this cat exudes charm and personality.",
+      "image": "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg",
+      "images": ["public/cats/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg", "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg"]
+    }
+
+  ]
+  
