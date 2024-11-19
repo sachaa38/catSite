@@ -118,7 +118,7 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding-top: 115px;
+  padding-top: 92px;
   padding-left: 96px;
   padding-right: 96px;
   flex-direction: row;
@@ -135,7 +135,8 @@
   color: var(--dl-color-custom-primary1);
   font-size: 48px;
   max-width: 450px;
-  margin-top: var(--dl-space-space-twounits);
+  padding-top: 57px;
+  margin-top: 0;
   margin-bottom: var(--dl-space-space-unit);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -144,6 +145,7 @@
   color: var(--dl-color-custom-primary1);
   height: auto;
   font-family: "Nunito";
+  font-size: 18px;
 }
 .about-us-image {
   width: 400px;
@@ -213,7 +215,7 @@
   }
   .about-us-container1 {
     
-    padding-top: 0;
+    
     margin-right: 0px;
     margin-bottom: 0;
     padding-right: 0px;
@@ -265,7 +267,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .about-us-text {
-    padding-top: 0px;
+    
   }
   .about-us-image {
     width: 100%;
@@ -377,6 +379,7 @@
   .about-us-text {
     font-size: 48px;
     margin-top: 39px;
+    padding-top: 0px;
   }
   .about-us-text01 {
     margin-top:0 ;

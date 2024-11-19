@@ -248,14 +248,14 @@
 .divTitle {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-top: 10px;
   position: relative;
 }
 
 .return-button {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -50px;
+  left: -75px;
   background-color:#99a08f;
   padding: 5px;
   color: white;
@@ -307,7 +307,7 @@
   justify-content: space-between;
 }
 .females-text1 {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Nunito";
   font-weight: 400;
   line-height: 150%;
@@ -444,6 +444,7 @@
   }
   .females-container1 {
     grid-template-columns: 1fr;
+    
   }
   .females-footer {
     padding: var(--dl-space-space-unit);
@@ -456,5 +457,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .divTitle {
+    justify-content: center;
   }
 }
