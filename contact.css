@@ -141,7 +141,11 @@
   align-items: flex-start;
 }
 .contact-text01 {
-  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 6mm;
+  line-height: 150%;
+  width: 100;
   text-align: center;
   font-family: "Nunito";
 }
@@ -373,7 +377,7 @@
   }
 
   .contact-text01 {
-    line-height: 18px;
+    line-height: 150%;
   }
   .barre-v {
     display: none;
@@ -461,7 +465,7 @@
     margin-bottom: 0;
   }
   .contact-text01 {
-    line-height: 18px;
+    line-height: 150%;
   }
 }
 @media(max-width: 438px) {
