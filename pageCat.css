@@ -31,7 +31,7 @@
     margin-top: 39px;
     text-align: justify;
     font-family: "Nunito";
-    font-size: 18px;
+    font-size: 26px;
 }
 @media(max-width: 767px) {
     .catPageContainer {
@@ -64,47 +64,47 @@
     .catPageImg {
         height: 300px;
     }
-        .catPageText {
-            font-size: 20px;
-        }
+        /* .catPageText {
+            font-size: 26px;
+        } */
     
 }
 @media(min-width:1590px){
     .catPageImg {
         height: 350px;
     }
-        .catPageText {
+        /* .catPageText {
             font-size: 26px;
-        }
+        } */
     
 }
 @media(min-width:1700px){
     .catPageImg {
         height: 400px;
     }
-        .catPageText {
+        /* .catPageText {
             font-size: 26px;
-        }
+        } */
     
 }
 @media(min-width:1930px){
     .catPageImg {
         height: 450px;
     }
-        .catPageText {
+        /* .catPageText {
             font-size: 28px;
-        }
+        } */
     
 }
 @media(min-width:2190px){
     .catPageImg {
         height: 500px;
     }
-        .catPageText {
+        /* .catPageText {
             font-size: 28px;
-        }
+        } */
     
 }
 
 
-
+ 
