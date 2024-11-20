@@ -129,6 +129,7 @@
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
   flex-direction: column;
+
 }
 .about-us-text {
   fill: var(--dl-color-custom-primary1);
@@ -145,7 +146,7 @@
   color: var(--dl-color-custom-primary1);
   height: auto;
   font-family: "Nunito";
-  font-size: 18px;
+  font-size: 22px;
 }
 .about-us-image {
   width: 400px;
@@ -225,6 +226,8 @@
   }
   .about-us-text01 {
     margin-top: var(--dl-space-space-oneandhalfunits);
+    font-size: 22px;
+
   }
   .about-us-container2 {
     width: 100%;
@@ -384,6 +387,7 @@
   .about-us-text01 {
     margin-top:0 ;
     align-self: center;
+    font-size: 22px;
     margin-left: var(--dl-space-space-halfunit);
     margin-right: var(--dl-space-space-halfunit);
     padding-left: 16px;
