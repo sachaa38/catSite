@@ -85,6 +85,7 @@
                 <a href="females.html" class="home-nav1">Females</a>
                 <a href="kittens.html" class="home-nav1">Kittens</a>
                 <a href="contact.html" class="home-nav1">Contact</a>
+                <a href="policies.html" class="home-nav1">Policies</a>
               </nav>
             </div>
             <div data-thq="thq-burger-menu" class="contact-burger-menu">
@@ -119,6 +120,7 @@
                   <a href="females.html" class="contact-nav2">Females</a>
                   <a href="kittens.html" class="contact-nav2">Kittens</a>
                   <a href="contact.html" class="contact-nav2">Contact</a>
+                  <a href="policies.html" class="home-nav1">Policies</a>
                 </nav>
               </div>
               <div>
@@ -153,11 +155,9 @@
             <div class="catPageContainer">
               
               <script>
-     
                 const urlParams = new URLSearchParams(window.location.search);
                 const catName = urlParams.get('name');
-        
-               
+            
                 fetch('kittens.json')
                     .then(response => response.json())
                     .then(data => {
@@ -165,55 +165,54 @@
                         const cat = data.find(item => item.name === catName);
                         if (cat) {
                             const galleryItem = document.createElement('div');
-                                    galleryItem.classList.add('catPageContainer1');
-        
-                                    const galleryContainer = document.createElement('div')
-                                    galleryContainer.classList.add('catPageContent')
-
-                                    const returnBtn = document.createElement('a')
-                                    returnBtn.textContent = "Return"
-                                    returnBtn.href = "./kittens.html"
-                                    returnBtn.classList.add("return-button")
-        
-                                    const title = document.createElement('h1')
-                                    title.classList.add("catPageTitle")
-                                    title.textContent = cat.name
-        
-                                    const para = document.createElement('p')
-                                    para.classList.add('catPageText')
-                                    para.textContent = cat.txt
-
-                                    const titleDiv = document.createElement("div")
-                                    titleDiv.classList.add("divTitle")
-                                    
-                                    titleDiv.appendChild(returnBtn)
-                                    titleDiv.appendChild(title)
-                                    
-                                    galleryContainer.appendChild(titleDiv)
-                                    galleryContainer.appendChild(para)
-                                    
-                                   
-                                    galleryItem.appendChild(galleryContainer);
-                                    gallery.appendChild(galleryItem);
-        
-                                    const containerPictures = document.createElement('div')
-                                    containerPictures.classList.add('females-container1')
-        
-                                    cat.images.forEach(imageUrl => {
-                                    const img = document.createElement('img');
-                                    img.src = imageUrl;
-                                    img.alt = cat.name;
-                                    img.classList.add('catPageImg');
-                                    containerPictures.appendChild(img)
-                                    galleryItem.appendChild(containerPictures);
-                                });
-        
+                            galleryItem.classList.add('catPageContainer1');
+            
+                            const galleryContainer = document.createElement('div');
+                            galleryContainer.classList.add('catPageContent');
+            
+                            const returnBtn = document.createElement('a');
+                            returnBtn.textContent = "Return";
+                            returnBtn.href = "./kittens.html";
+                            returnBtn.classList.add("return-button");
+            
+                            const title = document.createElement('h1');
+                            title.classList.add("catPageTitle");
+                            title.textContent = cat.name;
+            
+                            const para = document.createElement('p');
+                            para.classList.add('catPageText');
+                            // Replace newlines with <br> for proper HTML rendering
+                            para.innerHTML = cat.txt.replace(/\n/g, '<br>');
+            
+                            const titleDiv = document.createElement("div");
+                            titleDiv.classList.add("divTitle");
+            
+                            titleDiv.appendChild(returnBtn);
+                            titleDiv.appendChild(title);
+            
+                            galleryContainer.appendChild(titleDiv);
+                            galleryContainer.appendChild(para);
+            
+                            galleryItem.appendChild(galleryContainer);
+                            gallery.appendChild(galleryItem);
+            
+                            const containerPictures = document.createElement('div');
+                            containerPictures.classList.add('females-container1');
+            
+                            cat.images.forEach(imageUrl => {
+                                const img = document.createElement('img');
+                                img.src = imageUrl;
+                                img.alt = cat.name;
+                                img.classList.add('catPageImg');
+                                containerPictures.appendChild(img);
+                                galleryItem.appendChild(containerPictures);
+                            });
                         } else {
                             document.body.innerHTML = "<p>Cat not found.</p>";
                         }
                     })
-                    .catch(error => console.error('Erreur lors du chargement des données du chaton :', error));
-            </script>
+                    .catch(error => console.error('Error loading kitten data:', error));
+            </script>            
               <div class="females-container1">
               </div>
             </div>
@@ -222,7 +221,7 @@
         <footer class="footerContainer females-footer">
           <div class="females-separator"></div>
           <div class="females-container2">
-            <span class="females-text1">
+            <span class="home-text27">
               © 2009 WindinWillows, All Rights Reserved.
             </span>
           </div>

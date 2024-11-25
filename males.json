@@ -1,20 +1,29 @@
 [
     {
-      "name": "Xtrail",
-      "desc": "Cream classic tabby with white and blue eyes",
-      "image": "public/cats/e7e0fd69-991d-4218-90ed-037a182c3cd2-1500w.jpeg"
+        "name": "Gasprom",
+        "desc": "",
+        "txt": "",
+        "image": "public/cats/males/Gasprom/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg",
+        "images": [
+            "public/cats/males/Gasprom/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg"
+        ]
     },
     {
-      "name": "Gasprom",
-      "desc": "Blue classic tabby with white and blue eyes",
-      "image": "public/cats/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg"
+        "name": "Xtrail",
+        "desc": "Cream classic tabby with white and blue eyes\n",
+        "txt": "",
+        "image": "public/cats/males/Xtrail/e7e0fd69-991d-4218-90ed-037a182c3cd2-1500w.jpeg",
+        "images": [
+            "public/cats/males/Xtrail/e7e0fd69-991d-4218-90ed-037a182c3cd2-1500w.jpeg"
+        ]
     },
     {
-      "name": "Wolter",
-      "desc": "Black silver ticked tabby",
-      "txt": "This cat is a graceful and elegant creature with soft, silky fur that shines in the light. Its eyes are large and expressive, reflecting curiosity and intelligence. With a playful yet calm demeanor, it enjoys exploring its surroundings and lounging in cozy spots. This feline is friendly and affectionate, often seeking gentle strokes and cuddles. Its purring is soothing, a sign of comfort and contentment. Whether chasing a toy or simply observing the world, this cat exudes charm and personality.",
-      "image": "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg",
-      "images": ["public/cats/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg", "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg","public/cats/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg", "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg"]
-    }   
-  ]
-  
+        "name": "Wolter",
+        "desc": "Black silver ticked tabby\n",
+        "txt": "",
+        "image": "public/cats/males/Wolter/375320074_6355865797843984_6897816705362881062_n-1500h.jpg",
+        "images": [
+            "public/cats/males/Wolter/375320074_6355865797843984_6897816705362881062_n-1500h.jpg"
+        ]
+    }
+]

@@ -1,54 +1,26 @@
 [
     {
-      "name": "Leonardo",
-      "desc": "Boy, blue dominate eyes",
-      "image": "public/cats/0e074b56-5a97-48fb-883a-6270a65fd5f7.jpeg"
+        "name": "Manny",
+        "desc": "Data of birth : 19.07.2024\nColor : ds 22 (red marble on silver)\n",
+        "txt": "Data of birth : 19.07.2024\nColor : ds 22 (red marble on silver)\n",
+        "image": "public/cats/kittens/Manny/e87b804f-338b-48c8-85ff-bd50caa9145e.jpeg",
+        "images": [
+            "public/cats/kittens/Manny/e87b804f-338b-48c8-85ff-bd50caa9145e.jpeg",
+            "public/cats/kittens/Manny/48403828-1114-4f09-87b1-bc1c2b91d97f.jpeg",
+            "public/cats/kittens/Manny/1ca828e6-3ac5-4aae-b944-cb62bdaa7a5b.jpeg",
+            "public/cats/kittens/Manny/6d77bc2a-1f11-44b6-8028-e729e77e391e.jpeg"
+        ]
     },
     {
-      "name": "Dreamer",
-      "desc": "Boy with blue eyes",
-      "image": "public/cats/428b1985-5eea-4a84-8d4e-2a4943b25c85.jpeg"
-    },
-    {
-      "name": "Quentin",
-      "desc": "Quentin, a 22 03 boy",
-      "image": "public/cats/441050939_7310880952342459_7041359920146908761_n.jpg"
-    },
-    {
-      "name": "Hollywood",
-      "desc": "Poly boy with blue eyes",
-      "image": "public/cats/8728f06a-0642-499d-b406-dd9771d28896.jpeg"
-    },
-    {
-      "name": "Leonardo",
-      "desc": "Boy, blue dominate eyes",
-      "image": "public/cats/0e074b56-5a97-48fb-883a-6270a65fd5f7.jpeg"
-    },
-    {
-      "name": "Dreamer",
-      "desc": "Boy with blue eyes",
-      "image": "public/cats/428b1985-5eea-4a84-8d4e-2a4943b25c85.jpeg"
-    },
-    {
-      "name": "Quentin",
-      "desc": "Quentin, a 22 03 boy",
-      "image": "public/cats/441050939_7310880952342459_7041359920146908761_n.jpg"
-    },
-    {
-      "name": "Hollywood",
-      "desc": "Poly boy with blue eyes",
-      "image": "public/cats/8728f06a-0642-499d-b406-dd9771d28896.jpeg"
-    },
-    {
-      "name": "Wolter",
-      "desc": "Black silver ticked tabby",
-      "txt": "This cat is a graceful and elegant creature with soft, silky fur that shines in the light. Its eyes are large and expressive, reflecting curiosity and intelligence. With a playful yet calm demeanor, it enjoys exploring its surroundings and lounging in cozy spots. This feline is friendly and affectionate, often seeking gentle strokes and cuddles. Its purring is soothing, a sign of comfort and contentment. Whether chasing a toy or simply observing the world, this cat exudes charm and personality.",
-      "image": "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg",
-      "images": ["public/cats/38cc2f79-66c8-44df-8ffa-1b7f4541d2dd-1500w.jpeg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg", "public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg","public/cats/375320074_6355865797843984_6897816705362881062_n-1500h.jpg"]
+        "name": "Heloise",
+        "desc": "Data of birth : 19.07.2024\nColor : g 22 09 (blue tortie classic tabby with silver)\nBlue eyes\n",
+        "txt": "Data of birth : 19.07.2024\nColor : g 22 09 (blue tortie classic tabby with silver)\nBlue eyes",
+        "image": "public/cats/kittens/Heloise/a6a8702c-6675-4edd-b8b6-e7d8a1ebf38f.jpeg",
+        "images": [
+            "public/cats/kittens/Heloise/a6a8702c-6675-4edd-b8b6-e7d8a1ebf38f.jpeg",
+            "public/cats/kittens/Heloise/acbf1f3e-d1a7-409d-bdf5-686adf6f0089.jpeg",
+            "public/cats/kittens/Heloise/5342286e-140d-40b9-a47c-c565518786d5.jpeg",
+            "public/cats/kittens/Heloise/5deee996-75fe-4031-8045-f354174942a9.jpeg"
+        ]
     }
-    
-
-
-  ]
-  
-  
+]

@@ -39,6 +39,8 @@
   flex-direction: column;
 }
 .question1-text {
+  font-family: Georgia;
+  font-size: 22px;
   font-weight: 700;
 }
 
@@ -47,12 +49,16 @@
     align-items: flex-start;
   }
   .question1-text {
+    font-size: 22px;
+    font-family: Georgia;
     align-self: flex-start;
     text-align: left;
   }
 }
 @media(max-width: 438px) {
   .question1-text {
+    font-size: 22px;
+    font-family: Georgia;
     align-self: flex-start;
     text-align: left;
   }
@@ -315,7 +321,7 @@
 }
 .home-hero1 {
   height: 345px;
-  padding-bottom: 59px;
+  /* padding-bottom: 59px; */
   background-color: var(--dl-color-custom-secondary1);
 }
 .home-container01 {
@@ -427,7 +433,9 @@
   text-align: center;
 }
 .home-text24 {
+  font-size: 20px;
   text-align: left;
+  line-height: 1.5
 }
 .home-container05 {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -526,7 +534,7 @@
   justify-content: space-between;
 }
 .home-text27 {
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Georgia";
   font-weight: 400;
   line-height: 150%;
@@ -577,8 +585,10 @@
   }
   .home-text24 {
     text-align: center;
+    font-size: 21px;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
+    line-height: 1.5
   }
   .home-container06 {
     width: 100%;
@@ -664,6 +674,7 @@
     justify-content: center;
   }
   .home-text24 {
+    font-size: 21px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

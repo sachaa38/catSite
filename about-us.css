@@ -126,8 +126,10 @@
   justify-content: space-between;
 }
 .about-us-container1 {
+  margin-top: 60px;
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
+  color: var(--dl-color-custom-neutral-dark);
   flex-direction: column;
 
 }
