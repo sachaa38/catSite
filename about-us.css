@@ -126,7 +126,7 @@
   justify-content: space-between;
 }
 .about-us-container1 {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   margin-right: var(--dl-space-space-threeunits);
   color: var(--dl-color-custom-neutral-dark);
@@ -217,15 +217,11 @@
     margin-bottom: 30px;
   }
   .about-us-container1 {
-    
-    
     margin-right: 0px;
     margin-bottom: 0;
     padding-right: 0px;
   }
-  .about-us-text {
-   
-  }
+
   .about-us-text01 {
     margin-top: var(--dl-space-space-oneandhalfunits);
     font-size: 22px;

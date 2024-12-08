@@ -315,16 +315,20 @@
   width: 100%;
   height: auto;
   display: flex;
-  margin-top: 96px;
+  margin-top: 60px;
   align-items: flex-start;
   justify-content: center;
 }
 .home-hero1 {
-  height: 345px;
+  height: 874px;
   /* padding-bottom: 59px; */
   background-color: var(--dl-color-custom-secondary1);
+  background-image: url(public/external/homepagepsd5.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .home-container01 {
+  margin-bottom: 10%;
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
@@ -737,22 +741,24 @@
   
   .home-hero {
     width: 100%;
-    height: 450px;
-    margin-top: var(--dl-space-space-fiveunits);
+    height: 630px;
+    /* margin-top: var(--dl-space-space-fiveunits); */
   }
   .home-hero1 {
-    height: 461px;
-    padding-top: 72px;
+    height: 650px;
+    /* padding-top: 72px; */
+    background-image: url(public/external/homepagepsd_small.jpg);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-container01 {
     height: 586px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    margin-bottom: var(--dl-space-space-unit);
+    padding-top: 370px;
+    /* margin-bottom: var(--dl-space-space-unit); */
   }
   .home-hero-heading {
+    display: none;
     height: 186px;
     margin-top: 0px;
     font-family: Impact;
